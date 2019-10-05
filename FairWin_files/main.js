@@ -1,5 +1,5 @@
 var address;
-var ipUrl = "https://fairwin.me:444"; 
+var ipUrl = "https://xxxxxx.xxxxxx:444"; 
 //is connect
 var isWe3 = false;
 //is login
@@ -21,10 +21,10 @@ var netUrl = "https://etherscan.io/";
 window.addEventListener('load', function() {
 	//get conttract
 	if(window.location.href.lastIndexOf("www")>=0){
-		ipUrl = "https://www.fairwin.me:444"; 
+		ipUrl = "https://www.xxxxxx.xxxxxx:444"; 
 	}
 //	if(window.location.href.lastIndexOf("www")==0){
-//		ipUrl = "www.fairwin.me:444"; 
+//		ipUrl = "www.xxxxxx.xxxxxx:444"; 
 //	}
 	var className = $(".language").attr("class");
 	//$(".web-innerrequired").show();
